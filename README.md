@@ -84,6 +84,16 @@ A RESTful API built with Node.js and Express for managing a dental clinic. The A
 | POST   | `/doctor`   | Add a new dentist        |
 | DELETE | `/doctor/:id` | Remove a dentist        |
 
+### Patients
+| Method | Endpoint         | Description                 |
+|--------|----------------|-----------------------------|
+| GET    | `/clinic`     | Get all clinics           |
+| GET    | `/clinic/search/:name`     | Get all clinics by name           |
+| GET    | `/clinic/:id` | Get a single clinic by ID  |
+| POST   | `/clinic`     | Add a new clinic           |
+| PUT    | `/clinic/:id` | Update a clinic record     |
+| DELETE | `/clinic/:id` | Delete a clinic record     |
+
 ### Items
 | Method | Endpoint       | Description               |
 |--------|--------------|---------------------------|
@@ -108,4 +118,6 @@ For any inquiries, feel free to reach out:
 
 ### TO-DO
 
-add access restrictions to the routes by checking the JWT tokens
+- add access restrictions to the routes by checking the JWT tokens
+- add the update info for the doctor route
+
