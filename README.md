@@ -84,7 +84,7 @@ A RESTful API built with Node.js and Express for managing a dental clinic. The A
 | POST   | `/doctor`   | Add a new dentist        |
 | DELETE | `/doctor/:id` | Remove a dentist        |
 
-### Patients
+### Clinics
 | Method | Endpoint         | Description                 |
 |--------|----------------|-----------------------------|
 | GET    | `/clinic`     | Get all clinics           |
